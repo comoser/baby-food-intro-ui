@@ -14,18 +14,7 @@ export const RouterHead = component$(() => {
 
       <link rel="canonical" href={loc.href} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap"
-        rel="stylesheet"
-      />
-
-      <meta property="og:site_name" content="Qwik" />
-      <meta name="twitter:site" content="@QwikDev" />
-      <meta name="twitter:title" content="Qwik" />
+      <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
 
       {head.meta.map((m) => (
         <meta {...m} />

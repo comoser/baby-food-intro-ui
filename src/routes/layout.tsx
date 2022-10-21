@@ -1,20 +1,3 @@
-import { component$, Slot } from '@builder.io/qwik';
-import Header from '../components/header/header';
+import MainLayout from '~/components/templates/main-layout/main-layout';
 
-export default component$(() => {
-  return (
-    <>
-      <main>
-        <Header />
-        <section>
-          <Slot />
-        </section>
-      </main>
-      <footer>
-        <a href="https://www.builder.io/" target="_blank">
-          Made with ♡ by Builder.io
-        </a>
-      </footer>
-    </>
-  );
-});
+export default MainLayout;
