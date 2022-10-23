@@ -11,7 +11,7 @@ export default component$(() => {
   );
 
   return (
-    <header class="fixed left-0 right-0 p-4 shadow shadow-amber-900 flex flex-row justify-between bg-gradient-to-r from-indigo-500 to-amber-600">
+    <header class="fixed left-0 right-0 p-4 flex flex-row justify-between bg-gradient-to-r from-indigo-500 to-amber-600">
       <div class="flex items-center">
         <a onclick$={toggleContextMenu}>
           <MenuIcon color="white" />
